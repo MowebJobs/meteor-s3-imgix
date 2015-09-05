@@ -1,0 +1,28 @@
+<head>
+    <title>upload-images</title>
+</head>
+
+<body>
+    <h2>Upload image to S3</h2>
+    <input type="file" id="input">
+
+    <hr>
+
+    <h2>Thumbnails of images you try to upload</h2>
+    <output id="list">
+        <img class="thumb" src="" title="Example" width="200px" alt="Example.png"/>
+    </output>
+
+    <hr>
+
+    <h2>Retrieved images from Imgix</h2>
+    {{#each imagesResources}}{{> displayImage this}}{{/each}}
+</body>
+
+
+<template name="displayImage">
+    <div class="displayImage">
+        <div><img src="{{uri}}" alt="{{name}}" /></div>
+        <div><button id="{{name}}">delete: {{name}}</button></div>
+    </div>
+</template>

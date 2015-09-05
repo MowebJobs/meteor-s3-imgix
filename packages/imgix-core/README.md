@@ -1,0 +1,2 @@
+- Wrapper package of [imgix-core](https://github.com/imgix/imgix-core-js)
+- Includes a Polyfill for `Object.assign` just in case.

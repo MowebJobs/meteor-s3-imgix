@@ -1,0 +1,25 @@
+{
+    "AWS": {
+
+        "imageUser": {
+            "accessKeyId": "<AWS KEY>",
+            "secretAccessKey": "<AWS SECRET>",
+            "region": "<REGION>",
+            "maxRetries": "<MAX RETRIES>"
+        },
+
+        "imageAdmin": {
+            "accessKeyId": "<AWS KEY>",
+            "secretAccessKey": "<AWS SECRET>",
+            "region": "<REGION>",
+            "maxRetries": "<MAX RETRIES>"
+        },
+
+        "bucket": "<BUCKET NAME>",
+        "region": "<REGION>"
+    }
+    , "IMGIX": {
+        "domain": "<DOMAIN>",
+        "secureURLToken": "<TOKEN>"
+    }
+}
