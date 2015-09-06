@@ -1,11 +1,11 @@
-# Problem
+## Problem
 
 How to make a user direct upload an image to a server that is nicely displayed
 on any devices?
 
 
 
-# Solution conditions
+## Solution conditions
 
 - User should upload one copy of each of his images he wants to publish, directly
 to some server.
@@ -25,13 +25,13 @@ provided he verified some conditions.
 
 
 
-# Proof of concept: S3 & Imgix
+## Proof of concept: S3 & Imgix
 
 From a meteor app, upload an image to S3, download device specific derived image from imgix.
 
 
 
-# How to run it
+## How to run it
 
 (Please, modify the code as much as you need and share improvements.)
 
@@ -52,7 +52,7 @@ you this simple page:
 
 
 
-# How to use it
+## How to use it
 
 A table in the `upload-images.js` comments should guide you in the code:
 - `def` column gives you markers to see where are implementations of the names
@@ -66,7 +66,7 @@ A table in the `upload-images.js` comments should guide you in the code:
 
 
 
-# Next
+## Next
 
 - Please, share any improvements or defects you find.
 - I should derived some work from this proof of concept.  Will share what needs
@@ -74,7 +74,7 @@ A table in the `upload-images.js` comments should guide you in the code:
 
 
 
-# Resources
+## Resources
 
 - [slingshot](https://github.com/CulturalMe/meteor-slingshot) a package that
   boxes more or less what is in here.
