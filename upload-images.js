@@ -1,4 +1,29 @@
 /**
+ * ---
+ * name: upload_images
+ * uuid: 39b95974-d4c3-460a-857d-e5eacd080199
+ * parent:
+ * version: 0
+ * owner:
+ *   name: Pierre-Henry Frohring
+ *   email: pierrehenry.frohring@openmailbox.org
+ * satisfy:
+ *   - name: images
+ *     uuid: 745bf2dc-34b9-4130-af96-0be0c0ac6b07
+ *     url:
+ *     hash:
+ *       val: e7cb01e30b1bba65a8898443c77134aab82dcd37b641aff0ff6b8b32ec3e51db
+ *       type: sha256
+ *     propositions: [ ]
+ * use: [ ]
+ * template:
+ *   name: class_template
+ *   uuid: a779987e-8037-496e-bb00-de6ed9a529cf
+ *   version: 0
+ *   hash:
+ *     val:
+ *     type: sha256
+ * ---
 
  |------------+----------------------------------------------+----------------------------------------------------------------------------------------|
  | def        | Client                                       | Server                                                                                 |
